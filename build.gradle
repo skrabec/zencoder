@@ -59,6 +59,8 @@ dependencies {
     testImplementation "com.jetbrains.fus.reporting:ap-validation:76"
     testImplementation "com.jetbrains.fus.reporting:model:76"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+    implementation("org.slf4j:slf4j-api:2.0.9")
 }
 
 kotlin {
