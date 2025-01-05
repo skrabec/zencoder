@@ -17,7 +17,7 @@ class PyCharmGitHubTest {
     @Test
     fun openPythonProjectInPyCharm() {
         val testContext = Starter
-            .newContext(CurrentTestMethod.hyphenateWithClass(), TestCases.PY.PublicApis)
+            .newContext(CurrentTestMethod.hyphenateWithClass(), TestCases.PY.PublicApis.useRelease())
         testContext.runIDE(commands = CommandChain().exitApp())
     }
 }
