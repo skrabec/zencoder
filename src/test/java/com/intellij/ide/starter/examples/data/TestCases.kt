@@ -8,4 +8,5 @@ object TestCases {
   val IC = IdeaCommunityCases
   val PY = PyCharmCases
   val GO = GoLandCases
+  val WS = WebStormCases
 }
